@@ -46,7 +46,7 @@ From: nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
    ./bazel-0.24.0-installer-linux-x86_64.sh --prefix=/home/bazel
  #                                          --bin=/home/spark/xs/tf/bazel/bin \ 
  #                                          --base=/home/spark/xs/tf/bazel/.bazel 
-   source /home/bazel/lib/bazel/bin/bazel-complete.bash
+   source /home/bazel/bin/bazel-complete.bash
 
 #Install Tensorflow
 
