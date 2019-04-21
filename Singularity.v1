@@ -44,6 +44,10 @@ From: nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
    chmod 777 bazel-0.24.0-installer-linux-x86_64.sh
    mkdir -p /home/bazel
    ./bazel-0.24.0-installer-linux-x86_64.sh --prefix=/home/bazel
+   touch bazel.sh
+   echo "#!/bin/bash" > bazel.sh
+   echo "source /home/bazel/lib/bazel/bin/bazel-complete.bash" >> bazel.sh
+   sh bazel.sh
    #source /home/bazel/lib/bazel/bin/bazel-complete.bash
 
 #Install Tensorflow
