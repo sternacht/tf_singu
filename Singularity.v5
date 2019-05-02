@@ -1,0 +1,3 @@
+Bootstrap:docker  
+Form: intelaipg/intel-optimized-tensorflow:latest
+
