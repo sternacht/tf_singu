@@ -1,4 +1,2 @@
 Bootstrap: docker
 From: sternacht/hpcc_openblas:v5
-
-RUN cp /home/hpcc-1.5.0/hpccinf.txt /home
